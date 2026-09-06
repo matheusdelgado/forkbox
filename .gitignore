@@ -1,0 +1,20 @@
+/target
+# Rust build artifacts
+/target
+Cargo.lock
+
+# Python build & virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+env/
+
+# System / Forkbox runtime artifacts
+/tmp/forkbox_pool
+/tmp/forkbox_sess_*
+/tmp/forkbox.sock
+*.log
