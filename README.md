@@ -6,6 +6,7 @@
 [![Rust](https://img.shields.io/badge/Rust-1.75+-black?logo=rust)](https://www.rust-lang.org/)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)](https://python.org)
 [![Linux Kernel](https://img.shields.io/badge/Kernel-Linux%205.15+-orange?logo=linux)](https://kernel.org)
+[![PyPI version](https://img.shields.io/pypi/v/forkbox.svg)](https://pypi.org/project/forkbox/)
 
 Traditional container runtimes (Docker/containerd) introduce unacceptable latency overhead (~400ms per cold boot) for recursive agent workflows (e.g., Tree-of-Thought, SWE-bench, Code Execution). Heavy MicroVMs (Firecracker/gVisor) mitigate security concerns but penalize boot latency and consume excessive RAM.
 
